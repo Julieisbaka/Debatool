@@ -1,3 +1,9 @@
+name: "Check electron configuration"
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
 on: 
   push:
   workflow_dispatch:
